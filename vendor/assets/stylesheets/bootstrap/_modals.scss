@@ -29,12 +29,12 @@
   // https://github.com/twbs/bootstrap/pull/10951.
   outline: 0;
 
-  // When fading in the modal, animate it to slide down
-  &.fade .modal-dialog {
-    @include translate(0, -25%);
-    @include transition-transform(0.3s ease-out);
-  }
-  &.in .modal-dialog { @include translate(0, 0)}
+  // // When fading in the modal, animate it to slide down
+  // &.fade .modal-dialog {
+  //   @include translate(0, -25%);
+  //   @include transition-transform(0.3s ease-out);
+  // }
+  // &.in .modal-dialog { @include translate(0, 0)}
 }
 
 // Shell div to position the modal with bottom padding
